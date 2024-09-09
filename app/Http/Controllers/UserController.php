@@ -13,7 +13,11 @@ class  UserController extends Controller{
    }
 
     public function index(){
-        return view('welcome');
+
+        $name="Macarena";
+        $apellido="Quijada";
+        $edad=25;
+        return view('example',['name'=>$name, 'apellido'=>$apellido, 'edad'=>$edad]);
     }
 
     public function showname($name){
