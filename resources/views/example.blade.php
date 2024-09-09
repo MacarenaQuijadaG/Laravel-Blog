@@ -12,7 +12,7 @@ tu nombre {{$name}}<br>
 tu apellido {{$apellido}}<br>
 tu edad {{$edad}}<br>
 
-@component('component.alert' , ['var' => 'mi variable'])
+@component('components.alerta' , ['var' => 'mi variable'])
 
     @slot('title')
 
